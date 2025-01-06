@@ -1,7 +1,3 @@
-import time
-
-# ishlash tezligini hisoblash uchun time() functiondan foydalanamiz
-time_stard = time.time()
 phones = [{"brand":"Samsung","model":"Samsung A777","date":2008},
 {"brand":"Huawei","model":"Huawei MediaPad T1 10","date":2015},
 {"brand":"Nokia","model":"Nokia 110 (2019)","date":2019},

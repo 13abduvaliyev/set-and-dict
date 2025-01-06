@@ -1014,8 +1014,11 @@ for j in users:
 
 foiz_male = (count_man / length) * 100
 foiz_female = (count_woman / length) * 100
+foiz_gay = (100 - foiz_female - foiz_male)
+
+count_gay = len(users) - count_man-count_woman
 
 print("Hisobot:")
 print(f"- Erkaklar: {count_man} ta, {foiz_male}%")
 print(f"- Ayollar: {count_woman} ta, {foiz_female}%")
-
+print(f"- Gay: {count_gay} ta, {foiz_gay}%")
